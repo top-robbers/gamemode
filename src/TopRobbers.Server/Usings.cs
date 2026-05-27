@@ -1,0 +1,1 @@
+﻿global using SampSharp.OpenMp.Core;

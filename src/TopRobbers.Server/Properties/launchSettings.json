@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "TopRobbers.Server": {
+      "commandName": "Executable",
+      "executablePath": ".\\omp-server.exe",
+      "commandLineArgs": "-c \"sampsharp.directory=$(TargetDir).\" -c \"sampsharp.assembly=$(TargetName)\"",
+      "workingDirectory": "..\\..\\env"
+    }
+  }
+}
+

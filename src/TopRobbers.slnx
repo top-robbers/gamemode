@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TopRobbers.Persistence/TopRobbers.Persistence.csproj" Id="03da6859-5ca2-4dfd-a709-4d40d322d0e0" />
+  <Project Path="TopRobbers.Server/TopRobbers.Server.csproj" />
+  <Project Path="TopRobbers.Shared/TopRobbers.Shared.csproj" Id="9267db8f-af3c-4e48-b2e2-309a3f58fb93" />
+</Solution>

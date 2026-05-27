@@ -1,0 +1,18 @@
+# Development
+src/**/bin
+src/**/obj
+bin/
+
+# VS Code
+.vs
+src/.vs
+
+# Rider
+.idea/
+*.user
+
+# Env
+env/**/*.dll
+env/**/*.pdb
+env/log.txt
+env/**/*.exe

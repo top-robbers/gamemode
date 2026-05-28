@@ -52,7 +52,7 @@ RUN mkdir -p /opt/top-robbers/server/gamemodes \
     && mkdir -p /opt/top-robbers/server/logs \
     && mkdir -p /opt/top-robbers/server/data
 
-COPY runtime/linux/ /opt/top-robbers/server/
+#COPY runtime/linux/ /opt/top-robbers/server/
 
 COPY --from=build /app/publish/ /opt/top-robbers/server/gamemodes/
 

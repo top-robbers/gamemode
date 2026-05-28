@@ -1,0 +1,24 @@
+services:
+  server:
+    image: ghcr.io/top-robbers/server:production
+    container_name: top-robbers_server
+    restart: unless-stopped
+
+    working_dir: /opt/top-robbers/server
+
+    env_file:
+      - .env.production
+
+    ports:
+      - "7777:7777/udp"
+
+    volumes:
+      - ./logs:/opt/top-robbers/server/logs
+      - ./data:/opt/top-robbers/server/data
+
+    networks:
+      - top-robbers
+
+networks:
+  top-robbers:
+    external: true

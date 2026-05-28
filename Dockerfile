@@ -26,6 +26,7 @@ RUN apt-get update \
         file \
         openssl \
         libstdc++6 \
+        libatomic1 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN test -n "$OPENMP_SERVER_URL"
